@@ -8,7 +8,7 @@ typedef long long ll;
  
 ll _merge(int a[], int tmp[], int l, int mid, int r) {
   int i, j, k;
-  ll inv = 0; //i for left, j for right
+  ll inv = 0; //i for left subarray, j for rightsubarray
   i = k = l; 
   j = mid;
   while ((i < mid) && (j <= r)) {
